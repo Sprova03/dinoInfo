@@ -34,6 +34,12 @@ import ornitholestes from '../Imagenes/DinosImg/ornitholestes.png'
 import styracosaurus from '../Imagenes/DinosImg/styracosaurus.png'  
 import monolophosaurus from '../Imagenes/DinosImg/monolophosaurus.png'  
 import therizinosaurus from '../Imagenes/DinosImg/therizinosaurus.png'
+import muttaburrasaurus from '../Imagenes/DinosImg/muttaburrasaurus.png' 
+import gastonia from '../Imagenes/DinosImg/gastonia.png'   
+import dimetrodon from '../Imagenes/DinosImg/dimetrodon.png' 
+import segnosaurus from '../Imagenes/DinosImg/segnosaurus.png'
+
+
 
 
 export const dinosaurios = [
@@ -684,7 +690,7 @@ export const dinosaurios = [
   {
     id:36,
     nombre: "Muttaburrasaurus",
-    img:tyrannosaurusRex,
+    img:muttaburrasaurus,
     periodo: "Cretácico temprano, hace aproximadamente 112-100 millones de años",
     ubicacionGeografica: "Oceanía",
     tamaño: "Hasta 8 metros de largo y 2 metros de altura",
@@ -702,7 +708,7 @@ export const dinosaurios = [
   {
     id:37,
     nombre: "Gastonia",
-    img:tyrannosaurusRex,
+    img:gastonia,
     periodo: "Cretácico tardío, hace aproximadamente 125-100 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Hasta 5 metros de largo y 1,5 metros de altura",
@@ -721,7 +727,7 @@ export const dinosaurios = [
   {
     id:38,
     nombre: "Dimetrodon",
-    img:tyrannosaurusRex,
+    img:dimetrodon,
     periodo: "Pérmico tardío, hace aproximadamente 295-272 millones de años",
     ubicacionGeografica: "América del Norte y Europa",
     tamaño: "Alrededor de 4-4.5 metros de largo y 1.4 metros de altura",
@@ -739,7 +745,7 @@ export const dinosaurios = [
   {
     id:39,
     nombre: "Segnosaurus",
-    img:tyrannosaurusRex,
+    img:segnosaurus,
     periodo: "Cretácico temprano, hace aproximadamente 100-110 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 7 metros de largo y 2 metros de altura",
