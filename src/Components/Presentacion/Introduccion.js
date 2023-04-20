@@ -5,7 +5,6 @@ import { Mordisco } from './Mordisco'
 export const Introduccion = () => {
   return (
     <div className='presentacion-introdiccion-container'>
-      <Mordisco/>
       <Titulo/>
     <h4 className='presentacion-introdiccion'>En DinoInfo, te llevaremos a un viaje emocionante a través del tiempo y te transportaremos a una era prehistórica para que conozcas en profundidad a los gigantes que habitaron la Tierra hace millones de años.</h4>
     <h4 className='presentacion-introdiccion'>Podrás encontrar información detallada de más de 100 especies de dinosaurios, desde los más conocidos y emblemáticos como el <a>Tiranosaurio Rex</a> y el <a>Velociraptor</a>, hasta los menos populares pero igualmente fascinantes como el <a>Amargasaurus</a> y el <a>Argentinosaurus</a>.</h4>

@@ -12,7 +12,7 @@ export const Menu = () => {
       <li className='menu-item'><Link to='/curiosidades' className='menu-item-link'><p>Curiosidades</p></Link></li>
       </>
   )
-  console.log(param.id);
+
   return (
     <ul className='menu-conteiner'>
     {!param.id ? itemsMenu: ''}
