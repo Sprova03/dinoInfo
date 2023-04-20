@@ -73,7 +73,7 @@ export const dinosaurios = [
     img:tyrannosaurusRex,
     periodo: "Cretácico tardío, hace aproximadamente 68-66 millones de años",
     ubicacionGeografica: "América del Norte",
-    tamaño: "Alrededor de 9 metros de largo y 3 metros de altura",
+    tamaño: "Alrededor de 9 metros de largo y 3 metros de altura.",
     peso: "Alrededor de 5-7 toneladas",
     dieta: "Herbívoro",
     descripcion:
