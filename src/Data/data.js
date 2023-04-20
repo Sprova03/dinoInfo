@@ -13,6 +13,29 @@ import herrerasaurus from '../Imagenes/DinosImg/herrerasaurus.png'
 import microraptor from '../Imagenes/DinosImg/microraptor.png'
 import quetzalcoatlus from '../Imagenes/DinosImg/quetzalcoatlus.png'
 import stegosaurus from '../Imagenes/DinosImg/stegosaurus.png'
+import triceratops from '../Imagenes/DinosImg/triceratops.png'
+import brachiosaurus from '../Imagenes/DinosImg/brachiosaurus.png'
+import diplodocus from '../Imagenes/DinosImg/diplodocus.png'
+import ankylosaurus from '../Imagenes/DinosImg/ankylosaurus.png'  
+import pterodactyl from '../Imagenes/DinosImg/pterodactyl.png'   
+import iguanodon from '../Imagenes/DinosImg/iguanodon.png'  
+import parasaurolophus from '../Imagenes/DinosImg/parasaurolophus.png'  
+import archaeopteryx from '../Imagenes/DinosImg/archaeopteryx.png'  
+import apatosaurus from '../Imagenes/DinosImg/apatosaurus.png'  
+import pachycephalosaurus from '../Imagenes/DinosImg/pachycephalosaurus.png'  
+import oviraptor from '../Imagenes/DinosImg/oviraptor.png'  
+import corythosaurus from '../Imagenes/DinosImg/corythosaurus.png'  
+import baryonyx from '../Imagenes/DinosImg/baryonyx.png'  
+import einiosaurus from '../Imagenes/DinosImg/einiosaurus.png'   
+import ornithomimus from '../Imagenes/DinosImg/ornithomimus.png'  
+import suchomimus from '../Imagenes/DinosImg/suchomimus.png'  
+import edmontosaurus from '../Imagenes/DinosImg/edmontosaurus.png'   
+import ornitholestes from '../Imagenes/DinosImg/ornitholestes.png'  
+import styracosaurus from '../Imagenes/DinosImg/styracosaurus.png'  
+import monolophosaurus from '../Imagenes/DinosImg/monolophosaurus.png'  
+import therizinosaurus from '../Imagenes/DinosImg/therizinosaurus.png'
+
+
 export const dinosaurios = [
   {
     id:1,
@@ -71,7 +94,7 @@ export const dinosaurios = [
   {
     id:4,
     nombre: "Triceratops",
-    img:tyrannosaurusRex,
+    img:triceratops,
     periodo: "Cretácico tardío, hace aproximadamente 68-66 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 9 metros de largo y 3 metros de altura.",
@@ -89,7 +112,7 @@ export const dinosaurios = [
   {
     id:5,
     nombre: "Brachiosaurus",
-    img:tyrannosaurusRex,
+    img:brachiosaurus,
     periodo: "Jurásico Superior, hace aproximadamente 155-140 millones de años",
     ubicacionGeografica: "América del Norte, África y Europa",
     tamaño: "Alrededor de 26 metros de largo y 12 metros de altura",
@@ -125,7 +148,7 @@ export const dinosaurios = [
   {
     id:7,
     nombre: "Diplodocus",
-    img:tyrannosaurusRex,
+    img:diplodocus,
     periodo: "Jurásico tardío, hace aproximadamente 154-150 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 27 metros de largo y 5-7 metros de altura",
@@ -143,7 +166,7 @@ export const dinosaurios = [
   {
     id:8,
     nombre: "Ankylosaurus",
-    img:tyrannosaurusRex,
+    img:ankylosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 70-66 millones de años",
     ubicacionGeografica: "América del Norte y Asia",
     tamaño: "Alrededor de 6 metros de largo y 1.5 metros de altura",
@@ -197,7 +220,7 @@ export const dinosaurios = [
   {
     id:11,
     nombre: "Pterodactyl",
-    img:tyrannosaurusRex,
+    img:pterodactyl,
     periodo: "Jurásico tardío, hace aproximadamente 163-145 millones de años",
     ubicacionGeografica: "Europa, América del Norte y Asia",
     tamaño: "Envergadura de hasta 10 metros",
@@ -215,7 +238,7 @@ export const dinosaurios = [
   {
     id:12,
     nombre: "Iguanodon",
-    img:tyrannosaurusRex,
+    img:iguanodon,
     periodo: "Cretácico temprano, hace aproximadamente 125-100 millones de años",
     ubicacionGeografica: "Europa, América del Norte y Asia",
     tamaño: "Alrededor de 10 metros de largo y 4 metros de altura",
@@ -233,7 +256,7 @@ export const dinosaurios = [
   {
     id:13,
     nombre: "Parasaurolophus",
-    img:tyrannosaurusRex,
+    img:parasaurolophus,
     periodo: "Cretácico tardío, hace aproximadamente 76-73 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 10 metros de largo y 4 metros de altura",
@@ -287,7 +310,7 @@ export const dinosaurios = [
   {
     id:16,
     nombre: "Archaeopteryx",
-    img:tyrannosaurusRex,
+    img:archaeopteryx,
     periodo: "Jurásico tardío, hace aproximadamente 150 millones de años",
     ubicacionGeografica: "Europa",
     tamaño: "Alrededor de 30 centímetros de largo",
@@ -339,7 +362,7 @@ export const dinosaurios = [
   {
     id:19,
     nombre: "Apatosaurus",
-    img:tyrannosaurusRex,
+    img:apatosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 152-151 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 23 metros de largo y 5 metros de altura",
@@ -357,7 +380,7 @@ export const dinosaurios = [
   {
     id:20,
     nombre: "Pachycephalosaurus",
-    img:tyrannosaurusRex,
+    img:pachycephalosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 70-65 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 4,5 metros de largo y 1,5 metros de altura",
@@ -375,7 +398,7 @@ export const dinosaurios = [
   {
     id:21,
     nombre: "Oviraptor",
-    img:tyrannosaurusRex,
+    img:oviraptor,
     periodo: "Cretácico tardío, hace aproximadamente 75 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "1,5 metros de altura y 2,5 metros de longitud",
@@ -393,7 +416,7 @@ export const dinosaurios = [
   {
     id:22,
     nombre: "Corythosaurus",
-    img:tyrannosaurusRex,
+    img:corythosaurus,
     periodo: "Cretácico superior, hace aproximadamente 77-75 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 9 metros de longitud",
@@ -411,7 +434,7 @@ export const dinosaurios = [
   {
     id:23,
     nombre: "Baryonyx",
-    img:tyrannosaurusRex,
+    img:baryonyx,
     periodo: "Cretácico temprano, hace aproximadamente 130-125 millones de años",
     ubicacionGeografica: "Europa y África",
     tamaño: "Alrededor de 8 metros de largo y 2,5 metros de altura",
@@ -465,7 +488,7 @@ export const dinosaurios = [
   {
     id:26,
     nombre: "Einiosaurus",
-    img:tyrannosaurusRex,
+    img:einiosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 70-65 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 6 metros de largo y 2,5 metros de altura",
@@ -536,7 +559,7 @@ export const dinosaurios = [
   {
     id:30,
     nombre: "Ornithomimus",
-    img:tyrannosaurusRex,
+    img:ornithomimus,
     periodo: "Cretácico tardío, hace aproximadamente 75-65 millones de años",
     ubicacionGeografica: "América del Norte y Asia",
     tamaño: "Hasta 4 metros de largo y 1,5 metros de altura",
@@ -554,7 +577,7 @@ export const dinosaurios = [
   {
     id:31,
     nombre: "Suchomimus",
-    img:tyrannosaurusRex,
+    img:suchomimus,
     periodo: "Cretácico temprano, hace aproximadamente 121-112 millones de años",
     ubicacionGeografica: "Asia, África",
     tamaño: "Alrededor de 11-12 metros de largo",
@@ -572,7 +595,7 @@ export const dinosaurios = [
   {
     id:32,
     nombre: "Edmontosaurus",
-    img:tyrannosaurusRex,
+    img:edmontosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 73-66 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 12-13 metros de largo",
@@ -590,7 +613,7 @@ export const dinosaurios = [
   {
     id:32,
     nombre: "Ornitholestes",
-    img:tyrannosaurusRex,
+    img:ornitholestes,
     periodo: "Jurásico tardío, hace aproximadamente 150-144 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 1 metro de largo y 1 metro de altura",
@@ -608,7 +631,7 @@ export const dinosaurios = [
   {
     id:33,
     nombre: "Styracosaurus",
-    img:tyrannosaurusRex,
+    img:styracosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 75-70 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 5.5 metros de largo y 1.8 metros de altura",
@@ -626,7 +649,7 @@ export const dinosaurios = [
   {
     id:34,
     nombre: "Monolophosaurus",
-    img:tyrannosaurusRex,
+    img:monolophosaurus,
     periodo: "Jurásico Tardío, hace aproximadamente 160 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 5 metros de largo y 2 metros de altura",
@@ -644,7 +667,7 @@ export const dinosaurios = [
   {
     id:35,
     nombre: "Therizinosaurus",
-    img:tyrannosaurusRex,
+    img:therizinosaurus,
     periodo: "Cretácico Tardío, hace aproximadamente 70 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 10 metros de largo y 5 metros de altura",
