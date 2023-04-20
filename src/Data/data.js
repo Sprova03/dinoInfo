@@ -12,6 +12,7 @@ import troodon from '../Imagenes/DinosImg/troodon.png'
 import herrerasaurus from '../Imagenes/DinosImg/herrerasaurus.png'
 import microraptor from '../Imagenes/DinosImg/microraptor.png'
 import quetzalcoatlus from '../Imagenes/DinosImg/quetzalcoatlus.png'
+import stegosaurus from '../Imagenes/DinosImg/stegosaurus.png'
 export const dinosaurios = [
   {
     id:1,
@@ -52,7 +53,7 @@ export const dinosaurios = [
   {
     id:3,
     nombre: "Stegosaurus",
-    img:tyrannosaurusRex,
+    img:stegosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 155-150 millones de años",
     ubicacionGeografica: "América del Norte, Europa, Asia",
     tamaño: "Alrededor de 9 metros de largo y 4 metros de altura",
