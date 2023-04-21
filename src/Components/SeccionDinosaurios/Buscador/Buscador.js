@@ -46,8 +46,10 @@ export const Buscador = () => {
   
   return (
     <form onSubmit={e => e.preventDefault()} className='form-buscador-dino'>
+      <div className='form-buscador-dino-input-contenedor'>
         <input value={inputVal} onFocus={ (e) =>handlerFocus(e)}  onChange={(e) => handleVistaPrevia(e)} placeholder='Buscar Dino'></input>
         {dinos.length !== 0   ? <VistaPreviaBuscador data={dinos}/> : ''}
+        </div>
     </form>
   )
 }

@@ -31,8 +31,28 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: serif;
   background-color: var(--color-background);
-  height: 100vh;
+  height: auto;
   margin: 0px 40px 0 40px;
+}
+#drawe-hook{
+  z-index: 10;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height:  1450px;
+
+background: #000;
+}
+
+.drawer{
+  display: none;
+  width: 100%;
+  height:  1450px;
+background-color: #8B4513;
+}
+.drawerActive{
+  display: block;
 }
 
 code {
@@ -206,7 +226,6 @@ code {
 }
 
 .form-buscador-dino {
-  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -215,11 +234,43 @@ code {
   margin: 35px 0;
   
 }
+.form-buscador-dino-input-contenedor {
+  position: relative;
+  z-index: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  width: 600px;
+  margin: 35px 0;
+  
+}
+.form-buscador-dino input {
+  border: none;
+  border: solid 1px var(--color-secondary);
+  height: 30px;
+width: 100%;
+  border-radius: 20px;
+  color: #8B4513;
+  font-weight: 600;
+  font-size: 17px;
+  padding: 10px;
+}
+
+.form-buscador-dino input:focus {
+  outline: none;
+
+}
+
+.form-buscador-dino input:focus::placeholder {
+  display: none;
+
+}
 
 .vista-previa-buscador {
-  top: 32px;
-  left: 620px;
   position: absolute;
+  top: 33px;
   max-height: 300px;
   height: auto;
   overflow: scroll;
@@ -249,7 +300,6 @@ code {
   /* creates padding around scroll thumb */
 
 }
-
 
 
 .elementos-vista-previa {
@@ -299,27 +349,7 @@ display: flex;
 color: var(--color-secondary);
 background-color: #fff;
 }
-.form-buscador-dino input {
-  border: none;
-  border: solid 1px var(--color-secondary);
-  height: 30px;
-  width: 600px;
-  border-radius: 20px;
-  color: #8B4513;
-  font-weight: 600;
-  font-size: 17px;
-  padding: 10px;
-}
 
-.form-buscador-dino input:focus {
-  outline: none;
-
-}
-
-.form-buscador-dino input:focus::placeholder {
-  display: none;
-
-}
 
 .contenedor-dinos-menu {
   width: 100%;
@@ -362,14 +392,7 @@ background-color: #fff;
 
 }
 
-.DinoMeLit {
-  width: 100px;
-  position: absolute;
-  transform: rotate(0deg);
-  left: 80px;
-  top: 70px;
-  z-index: -11;
-}
+
 
 .lista-menu-lateral ul h3 {
   color: #8B4513;
