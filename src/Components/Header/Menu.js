@@ -15,7 +15,7 @@ export const Menu = () => {
 
   return (
     <ul className='menu-conteiner'>
-    {!param.id ? itemsMenu: ''}
+    {itemsMenu}
     </ul>
   )
 }

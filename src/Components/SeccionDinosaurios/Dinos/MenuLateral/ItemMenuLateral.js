@@ -14,6 +14,7 @@ export const ItemMenuLateral = ({titulo,getDataDinos}) => {
   
   return (
 <>
+    <li className='item-menu-lateral' ><h3>Categorias:</h3></li>
     <li className='item-menu-lateral' >Alimentacion:
     <a className={titulo === 'Carnívoros'? 'item-menu-lateral-active' : '' } onClick={(e) => getDataDinos(e)}>Carnívoros</a>
     <a className={titulo === 'Herbívoros'? 'item-menu-lateral-active' : '' } onClick={(e) => getDataDinos(e)}>Herbívoros</a></li>

@@ -7,7 +7,7 @@ export const ItemsMenuLateral = ({titulo,getDataDinos}) => {
     <div className='lista-menu-lateral'>
 
     <ul>
-        <h3>Categorias:</h3>
+        
         <ItemMenuLateral titulo={titulo} getDataDinos={(e)=>getDataDinos(e)}/>
         
     </ul>

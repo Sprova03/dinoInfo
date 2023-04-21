@@ -8,7 +8,7 @@ export const VistaPrevia = ({titulo,dataDinos}) => {
 
   return (
     <div className='VistaPrevia'>
-      <h3>{titulo}</h3>
+      <h2>{titulo}</h2>
         <ol className='list-dinos'>
             <VistaPreviaDinos dataDinos={dataDinos}/>
         </ol>

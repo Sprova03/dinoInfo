@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { dinosaurios } from '../../../Data/data';
 import { Header } from '../../Header/Header';
+import { DinoScreenCuriosidades } from './DinoScreenCuriosidades';
 
 
 export const DinoScreen = () => {
@@ -14,15 +15,6 @@ export const DinoScreen = () => {
   
 
   }, [])
-  
-
-
-  
-  
-  console.log(id);
-
-    
-  console.log(dino);
   return (
     <section className='container-dino-screen'>
       <Header/>
@@ -34,9 +26,7 @@ export const DinoScreen = () => {
       </div>
       <h3>{dino[0].descripcion}</h3>
       <img alt='Foto del dino' src={dino[0].img}/>
-      <h4>
-        {dino[0].curiosidades.map(e =>  <p>{e}</p>)}
-      </h4>
+      <DinoScreenCuriosidades data={dino[0]}/>
       </section>
   )
 }

@@ -29,7 +29,8 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: serif;
+  font-family: 'Pathway Extreme', sans-serif;
+font-family: 'Poltawski Nowy', serif;
   background-color: var(--color-background);
   height: auto;
   margin: 0px 40px 0 40px;
@@ -369,29 +370,9 @@ background-color: #fff;
 }
 
 .lista-menu-lateral ul {
- 
+ margin: 5px;
 
 }
-
-.LianasMeLit {
-  width: 180px;
-  height: 75px;
-  position: absolute;
-  transform: rotate(20deg);
-  left: 0px;
-  top: -30px;
-
-}
-
-.LianasMeLit2 {
-  width: 180px;
-  position: absolute;
-  transform: rotate(-90deg);
-  left: 67px;
-  top: 125px;
-
-}
-
 
 
 .lista-menu-lateral ul h3 {
@@ -414,15 +395,16 @@ background-color: #fff;
   color: black;
   font-weight: 600;
   cursor: pointer;
-
+  display: inline;
 }
 
 .item-menu-lateral-active {
-  border-bottom: var(--color-secondary) 1px solid;
+  border-bottom: var(--color-secondary) 2px solid;
 }
 
 .VistaPrevia {
   display: flex;
+  align-items: center;
   flex-direction: column;
 
   width: 80%;
@@ -434,7 +416,8 @@ background-color: #fff;
   flex-direction: column;
   align-items: center;
   overflow: scroll;
-  height: 100%;
+  width: 100%;
+  height: 400px;
 }
 
 .list-dinos::-webkit-scrollbar {
@@ -461,16 +444,17 @@ background-color: #fff;
   margin-top: 30px;
   display: flex;
   width: 650px;
-  background-color: #006400b2;
+  background: rgb(217,245,214);
+  background: linear-gradient(90deg, rgba(217,245,214,1) 0%, rgba(20,108,12,1) 30%, rgba(0,93,19,1) 92%);
   color: white;
   border-radius: 10px;
 
 }
 
 .list-dinos li {
-  -webkit-box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.377);
-  -moz-box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.39);
-  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.459);
+  -webkit-box-shadow: 4px 1px 6px 0px rgba(0, 0, 0, 0.664);
+  -moz-box-shadow: 4px 1px 6px 0px rgba(0, 0, 0, 0.616);
+  box-shadow: 4px 1px 6px 0px rgba(0, 0, 0, 0.699);
 }
 
 .list-dinos li img {
@@ -489,6 +473,11 @@ background-color: #fff;
   justify-content: space-around;
 
 }
+.dino-descripcion-nombre{
+  padding: 10px 0;
+  font-size: 22px;
+  font-weight: 300;
+}
 
 .dino-descripcion-link {
   display: flex;
@@ -503,14 +492,18 @@ background-color: #fff;
   height: 40px;
   width: 100px;
   background-color: var(--color-primary);
+  box-shadow: 4px 1px 5px 0px rgba(0, 0, 0, 0.459);
+
   font-weight: 800;
   color: #fff;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .dino-descripcion-link a:hover {
   color: #8B4513;
   background-color: #fff;
+  box-shadow: -4px 1px 5px 0px rgba(0, 0, 0, 0.459);
 }
 
 .container-dino-screen {}

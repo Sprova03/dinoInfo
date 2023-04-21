@@ -11,9 +11,9 @@ export const VistaPreviaDinos = ({dataDinos}) => {
 
       <img src={dinosaurio.img}/>
       <div className='dino-descripcion'>
-        <h3>{dinosaurio.nombre}</h3>
-        <h4>{dinosaurio.curiosidades[0]}</h4>
-        <h4>{dinosaurio.curiosidades[1]}</h4>
+        <p className='dino-descripcion-nombre'>{dinosaurio.nombre}</p>
+        <p>{dinosaurio.curiosidades[0]}</p>
+        <p>{dinosaurio.curiosidades[1]}</p>
         <div className='dino-descripcion-link'>
 
         <Link to={`/dino/${dinosaurio.nombre}/${dinosaurio.id}`}>Mas...</Link>
