@@ -39,7 +39,9 @@ export const DinoScreen = () => {
       </h2>
       <Link to={'/'}><h3>Volver</h3></Link>
         </div>
+        <div className='dino-screen-descripcion'> 
       <h3>{dino[0].descripcion}</h3>
+      </div>
       </div>
       <div className='dino-screen-cualidades'>
       <DinoScreenCualidades tipoDieta={tipoDieta} data={dino[0]}/>

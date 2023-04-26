@@ -4,6 +4,21 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.blackModeHeader{
+  background-color: #333;
+  color: #fff;
+  box-shadow: 0px 5px 5px rgba(255, 255, 255, 0.747);
+ }
+#blackModeHeader{
+  background-color: #333;
+  color: #ffffff;
+ }
+#blackModeHeader:hover{
+ 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-color: #8B4513;
+  transition: all 0.5s ease-out;
+ }
 a{
   color: #000;
 }
@@ -105,12 +120,12 @@ code {
 } */
 .logo-container {
   height: 100%;
-  width: 200px;
+  width: 220px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   font-size: 30px;
-
+  padding-left: 10px;
 }
 
 .titulo-d,
@@ -130,7 +145,7 @@ code {
 
 .menu-conteiner {
   height: 100%;
-  width: 320px;
+  width: 420px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -173,7 +188,7 @@ code {
   flex-direction: row;
   margin-top: 10px;
   font-size: 21px;
-
+  padding: 10px;
 }
 
 .presentacion-titlulo-container {
@@ -191,7 +206,7 @@ code {
   backdrop-filter: blur(2px);
   /* background-color: rgba(255, 255, 255, 0.589); */
   width: 690px;
-  background-color: #ffffff;
+
   /* Color de fondo */
   box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
   border-radius: 10px;
@@ -519,16 +534,63 @@ background-color: #fff;
   display: flex;
   justify-content: space-between;
 }
+.dino-screen-title h2{
+  padding: 0 0 0 70px;
+font-size: 35px;
+}
+.dino-screen-title a{
+  border-radius: 10px;
+  height: 50px;
+  width: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  background-color: #8B4513;
+  color: #fff;
+  box-shadow: 7px 5px 5px -2px rgba(51, 51, 51, 0.459);
+
+}
+.dino-screen-title a:hover{
+
+background-color: #722f00;
+box-shadow: none;
+
+
+}
+
+.container-dino-screen{
+  margin-top: 20px;
+}
+.dino-screen-descripcion{
+  padding: 10px;
+  height: 100px;
+  width: 70%;
+}
+.dino-screen-descripcion h3{
+  padding: 0 0 0 70px;
+
+}
+
 .dino-screen-cualidades{
+  padding: 10px;
+  border-radius: 10px;
   margin-top: 20px;
   display: flex;
   flex-direction: row-reverse;
-  justify-content: flex-end;
+  justify-content: space-around;
   align-items: center;
+  box-shadow: -10px 0px 33px -10px rgba(0,0,0,0.48);
+  background: rgb(255,255,255);
+  background: linear-gradient(90deg, rgba(255,255,255,1) 23%, rgba(247,247,247,1) 60%, rgba(223,223,223,1) 100%);
 }
 
 
  .dino-screen-lista-cualidades{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
   margin-left: 10px;
   padding:20px;
   height: 300px;
@@ -538,10 +600,10 @@ background-color: #fff;
 
  }
  .Carnívoro{
-  box-shadow: 0px 5px 5px 0px rgba(129, 1, 1, 0.39);
+  box-shadow: 0px 5px 13px 0px rgba(129, 1, 1, 0.39);
  }
  .Herbívoro{
- box-shadow: 0px 5px 5px 0px rgba(3, 170, 39, 0.39);
+ box-shadow: 0px 5px 13px 0px rgba(3, 170, 39, 0.39);
 
  }
  .dino-screen-lista{
@@ -559,10 +621,14 @@ background-color: #fff;
  }
  .dino-screen-img{
   margin-right: 70px;
-  height: 300px;
+  height: 600px;
+  width: 650px;
+
  }
  .dino-screen-img img{
-  height: 300px;
+  width: 600px;
+
+  height: 600px;
  }
  .dino-screen-lista-item span{
   font-size: 20px;
@@ -574,5 +640,11 @@ background-color: #fff;
   margin: 30px 0;
  }
  .dino-screen-curiosidades h3{
+  font-size: 25px;
+  padding: 0 0 0 70px;
   margin: 30px 0;
+ }
+
+ .dino-screen-lista-item {
+  font-size: 18px;
  }
