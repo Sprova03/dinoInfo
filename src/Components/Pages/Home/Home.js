@@ -3,12 +3,12 @@ import { Header } from '../../Header/Header'
 import { Presentacion } from '../../Presentacion/Presentacion'
 import { SeccionDino } from '../../SeccionDinosaurios/SeccionDino'
 
-export const Home = () => {
+export const Home = ({handleBlackMode,blackMode}) => {
   return (
     <>
-    <Header/>
-<Presentacion/>
-<SeccionDino/>
+    <Header handleBlackMode={handleBlackMode} blackMode={blackMode}/>
+<Presentacion blackMode/>
+<SeccionDino blackMode/>
 </>
   )
 }
