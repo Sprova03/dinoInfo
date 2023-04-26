@@ -73,7 +73,34 @@ import leaellynasaura from '../Imagenes/DinosImg/leaellynasaura.png'
 import megaraptor from '../Imagenes/DinosImg/megaraptor.png' 
 import nigersaurus from '../Imagenes/DinosImg/nigersaurus.png'  
 import omeisaurus from '../Imagenes/DinosImg/omeisaurus.png'  
-import protosphyraena from '../Imagenes/DinosImg/protosphyraena.png'
+import protosphyraena from '../Imagenes/DinosImg/protosphyraena.png'  
+import quaesitosaurus from '../Imagenes/DinosImg/quaesitosaurus.png'   
+import rapetosaurus from '../Imagenes/DinosImg/rapetosaurus.png'  
+import sauropelta from '../Imagenes/DinosImg/sauropelta.png'  
+import ultrasaurus from '../Imagenes/DinosImg/ultrasaurus.png'   
+import valdosaurus from '../Imagenes/DinosImg/valdosaurus.png' 
+import wuerhosaurus from '../Imagenes/DinosImg/wuerhosaurus.png'  
+import xenoceratops from '../Imagenes/DinosImg/xenoceratops.png' 
+import yangchuanosaurus from '../Imagenes/DinosImg/yangchuanosaurus.png' 
+import zuniceratops from '../Imagenes/DinosImg/zuniceratops.png'  
+import ammosaurus from '../Imagenes/DinosImg/ammosaurus.png'  
+import barosaurus from '../Imagenes/DinosImg/barosaurus.png'  
+import citipati from '../Imagenes/DinosImg/citipati.png'  
+import daspletosaurus from '../Imagenes/DinosImg/daspletosaurus.png' 
+import eotyrannus from '../Imagenes/DinosImg/eotyrannus.png'  
+import fukuiraptor from '../Imagenes/DinosImg/fukuiraptor.png'  
+import gasosaurus from '../Imagenes/DinosImg/gasosaurus.png' 
+import homalocephale from '../Imagenes/DinosImg/homalocephale.png' 
+import iguanacolossus from '../Imagenes/DinosImg/iguanacolossus.png' 
+import jinfengopteryx from '../Imagenes/DinosImg/jinfengopteryx.png' 
+import kentrosaurus from '../Imagenes/DinosImg/kentrosaurus.png'  
+import lambeosaurus from '../Imagenes/DinosImg/lambeosaurus.png' 
+import einiosuchus from '../Imagenes/DinosImg/einiosuchus.png'  
+import irritatorChallengeri from '../Imagenes/DinosImg/irritatorChallengeri.png'  
+import mapusaurus from '../Imagenes/DinosImg/mapusaurus.png'
+
+
+
 
 
 export const dinosaurios = [
@@ -1440,7 +1467,7 @@ export const dinosaurios = [
   {
     id:77,
     nombre: "Quaesitosaurus",
-    img:tyrannosaurusRex,
+    img:quaesitosaurus,
     periodo: "Cretácico superior, hace aproximadamente 70 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 14 metros de largo y 4 metros de altura",
@@ -1458,7 +1485,7 @@ export const dinosaurios = [
   {
     id:78,
     nombre: "Rapetosaurus",
-    img:tyrannosaurusRex,
+    img:rapetosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 70-66 millones de años",
     ubicacionGeografica: "África",
     tamaño: "Alrededor de 10 metros de largo y 4 metros de altura",
@@ -1476,7 +1503,7 @@ export const dinosaurios = [
   {
     id:79,
     nombre: "Sauropelta",
-    img:tyrannosaurusRex,
+    img:sauropelta,
     periodo: "Cretácico temprano, hace aproximadamente 133-120 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 4 metros de largo y 1,8 metros de altura",
@@ -1494,7 +1521,7 @@ export const dinosaurios = [
   {
     id:80,
     nombre: "Ultrasaurus",
-    img:tyrannosaurusRex,
+    img:ultrasaurus,
     periodo: "Jurásico tardío, hace aproximadamente 150-140 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Entre 22 y 30 metros de largo y 4,5 a 6 metros de altura",
@@ -1511,7 +1538,7 @@ export const dinosaurios = [
   {
     id:81,
     nombre: "Valdosaurus",
-    img:tyrannosaurusRex,
+    img:valdosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 160-155 millones de años",
     ubicacionGeografica: "Europa",
     tamaño: "Alrededor de 8 metros de largo y 2,5 metros de altura",
@@ -1528,7 +1555,7 @@ export const dinosaurios = [
   {
     id:82,
     nombre: "Wuerhosaurus",
-    img:tyrannosaurusRex,
+    img:wuerhosaurus,
     periodo: "Cretácico temprano, hace aproximadamente 130-120 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 6 metros de largo y 2,5 metros de altura",
@@ -1545,7 +1572,7 @@ export const dinosaurios = [
   {
     id:83,
     nombre: "Xenoceratops",
-    img:tyrannosaurusRex,
+    img:xenoceratops,
     periodo: "Cretácico tardío, hace aproximadamente 76-74 millones de años",
     ubicacionGeografica: "América del Sur",
     tamaño: "Alrededor de 6 metros de largo y 2,5 metros de altura",
@@ -1562,7 +1589,7 @@ export const dinosaurios = [
   {
     id:84,
     nombre: "Yangchuanosaurus",
-    img:tyrannosaurusRex,
+    img:yangchuanosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 160-155 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 8 metros de largo y 3 metros de altura",
@@ -1580,7 +1607,7 @@ export const dinosaurios = [
   {
     id:85,
     nombre: "Zuniceratops",
-    img:tyrannosaurusRex,
+    img:zuniceratops,
     periodo: "Cretácico tardío, hace aproximadamente 93-89 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 3 metros de largo y 1 metro de altura",
@@ -1598,7 +1625,7 @@ export const dinosaurios = [
   {
     id:86,
     nombre: "Ammosaurus",
-    img:tyrannosaurusRex,
+    img:ammosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 155-150 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 6 metros de largo y 1,8 metros de altura",
@@ -1615,7 +1642,7 @@ export const dinosaurios = [
   {
     id:87,
     nombre: "Barosaurus",
-    img:tyrannosaurusRex,
+    img:barosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 155-150 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 27 metros de largo y 8 metros de altura",
@@ -1632,7 +1659,7 @@ export const dinosaurios = [
   {
     id:88,
     nombre: "Citipati",
-    img:tyrannosaurusRex,
+    img:citipati,
     periodo: "Cretácico tardío, hace aproximadamente 75 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 2 metros de largo y 1 metro de altura",
@@ -1650,7 +1677,7 @@ export const dinosaurios = [
   {
     id:89,
     nombre: "Daspletosaurus",
-    img:tyrannosaurusRex,
+    img:daspletosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 77-74 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 9 metros de largo y 3 metros de altura",
@@ -1668,7 +1695,7 @@ export const dinosaurios = [
   {
     id:90,
     nombre: "Eotyrannus",
-    img:tyrannosaurusRex,
+    img:eotyrannus,
     periodo: "Cretácico temprano, hace aproximadamente 125 millones de años",
     ubicacionGeografica: "Europa",
     tamaño: "Alrededor de 4,5 metros de largo y 1,5 metros de altura",
@@ -1686,7 +1713,7 @@ export const dinosaurios = [
   {
     id:91,
     nombre: "Fukuiraptor",
-    img:tyrannosaurusRex,
+    img:fukuiraptor,
     periodo: "Cretácico temprano, hace aproximadamente 125 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 2,5 metros de largo y 1 metro de altura",
@@ -1704,7 +1731,7 @@ export const dinosaurios = [
   {
     id:92,
     nombre: "Gasosaurus",
-    img:tyrannosaurusRex,
+    img:gasosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 168-164 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 3-4 metros de largo y 1,5 metros de altura",
@@ -1722,7 +1749,7 @@ export const dinosaurios = [
   {
     id:93,
     nombre: "Homalocephale",
-    img:tyrannosaurusRex,
+    img:homalocephale,
     periodo: "Cretácico tardío, hace aproximadamente 70-65 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 2 metros de largo y 1 metro de altura",
@@ -1740,7 +1767,7 @@ export const dinosaurios = [
   {
     id:94,
     nombre: "Iguanacolossus",
-    img:tyrannosaurusRex,
+    img:iguanacolossus,
     periodo: "Cretácico temprano, hace aproximadamente 125 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 3 metros de largo y 1,5 metros de altura",
@@ -1758,7 +1785,7 @@ export const dinosaurios = [
   {
     id:95,
     nombre: "Jinfengopteryx",
-    img:tyrannosaurusRex,
+    img:jinfengopteryx,
     periodo: "Cretácico temprano, hace aproximadamente 120 millones de años",
     ubicacionGeografica: "Asia",
     tamaño: "Alrededor de 50 cm de largo y 20 cm de altura",
@@ -1776,7 +1803,7 @@ export const dinosaurios = [
   {
     id:96,
     nombre: "Kentrosaurus",
-    img:tyrannosaurusRex,
+    img:kentrosaurus,
     periodo: "Jurásico tardío, hace aproximadamente 155-150 millones de años",
     ubicacionGeografica: "África",
     tamaño: "Alrededor de 4 metros de largo y 1,5 metros de altura",
@@ -1794,7 +1821,7 @@ export const dinosaurios = [
   {
     id:97,
     nombre: "Lambeosaurus",
-    img:tyrannosaurusRex,
+    img:lambeosaurus,
     periodo: "Cretácico tardío, hace aproximadamente 76-75 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 9 metros de largo",
@@ -1812,7 +1839,7 @@ export const dinosaurios = [
   {
     id:98,
     nombre: "Einiosuchus",
-    img:tyrannosaurusRex,
+    img:einiosuchus,
     periodo: "Cretácico tardío, hace aproximadamente 70-65 millones de años",
     ubicacionGeografica: "América del Norte",
     tamaño: "Alrededor de 6 metros de largo y 2 metros de altura",
@@ -1830,7 +1857,7 @@ export const dinosaurios = [
   {
     id:99,
     nombre: "Irritator challengeri",
-    img:tyrannosaurusRex,
+    img:irritatorChallengeri,
     periodo: "Cretácico inferior, hace aproximadamente 110-100 millones de años",
     ubicacionGeografica: "América del Sur",
     tamaño: "Alrededor de 8 metros de largo y 3 metros de altura",
@@ -1848,7 +1875,7 @@ export const dinosaurios = [
   {
     id:100,
     nombre: "Mapusaurus",
-    img:tyrannosaurusRex,
+    img:mapusaurus,
     periodo: "Cretácico superior, hace aproximadamente 100-95 millones de años",
     ubicacionGeografica: "América del Sur",
     tamaño: "Alrededor de 12 metros de largo y 3,5 metros de altura",
